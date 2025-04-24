@@ -1,3 +1,14 @@
-# Ignore all .exe files in any folder
-**/*.exe
-*.exe
+# Ignore all object files
+*.o
+
+# Ignore all compiled C/C++ executables (no extension)
+*
+
+# But keep source files and other important files
+!*.cpp
+!*.h
+!*.hpp
+!*.c
+!*.cc
+!*.md
+!.gitignore
